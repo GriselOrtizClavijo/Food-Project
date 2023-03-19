@@ -1,15 +1,14 @@
 import { useState } from 'react'
 import './App.css'
-import ClassComponent from './component/ClassComponent'
-import FunctionComponent from './component/FunctionComponent'
-import RandomDog from './component/RandomDog'
+import Home from './component/Home'
+
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <div>
-     <RandomDog/>
+      <Home/>
     </div>
   )
 }
